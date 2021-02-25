@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>
+      사고상황
+    </title>
+    <style>
+      :root {
+          --h2-size: 1.2rem;
+          --padding-size: 1rem;
+          --time-size: 6rem;
+          --weather-size: 1rem;
+          --greeting-size: 1rem;
+        }
+        * {
+          box-sizing: border-box;
+          text-align: center;
+        }
+        h1 {
+          margin: 0;
+          padding: 0;
+          font-size: var(--h2-size);
+          text-shadow: 1px 1px 5px white;
+        }
+
+        body {
+          font-family: sans-serif;
+          
+          margin: 0;
+          
+        }
+       section{
+        display : grid;
+        gap : 70px;
+        grid-template-columns: repeat(3,5fr);
+      }
+    </style>
+  </head>
+  <body>
+   <h3>사고상황</h3>
+   <h1>사용자 번호 {{searchingBy}} </h1>
+   <article>
+     영상
+   </article>
+   <br><br>
+   <div>
+     <section>
+       <span>운전대</span>
+       <span>브레이크</span>
+       <span>엑셀</span>
+     </section>
+     <section>
+       <span>운전대 이미지</span>
+       <span>브레이크 이미지</span>
+       <span>엑셀 이미지</span>
+     </section>
+
+
+  </body>
+</html>
